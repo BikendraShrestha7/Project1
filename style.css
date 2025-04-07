@@ -10,7 +10,7 @@ body {
   color: #333;
 }
 
-/* Sticky Navbar */
+/* Navbar */
 .navbar {
   position: sticky;
   top: 0;
@@ -20,12 +20,24 @@ body {
   background: #1c6758;
   padding: 1rem 2rem;
   z-index: 100;
+  flex-wrap: wrap;
 }
 
 .logo {
   color: #fff;
   text-decoration: none;
   font-size: 1.5rem;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
 }
 
 .nav-links {
@@ -50,7 +62,7 @@ body {
   background: #fff;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
   text-align: center;
   padding: 5rem 2rem;
@@ -76,7 +88,7 @@ body {
   transform: scale(1.1);
 }
 
-/* Facts Section */
+/* Facts */
 .facts {
   padding: 3rem 2rem;
   background: #fff;
@@ -136,7 +148,6 @@ body {
   margin: 1rem 0;
   padding: 1rem;
   border-left: 5px solid #2e7d32;
-  position: relative;
   transition: background 0.3s;
 }
 
@@ -165,19 +176,34 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
   .nav-links {
+    display: none;
+    width: 100%;
     flex-direction: column;
-    gap: 0.5rem;
+    background: #1c6758;
+    margin-top: 1rem;
+  }
+
+  .menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
   }
 
   .hero h1 {
     font-size: 2rem;
   }
 
-  .cards {
-    flex-direction: column;
-    align-items: center;
+  .logo {
+    font-size: 1.2rem;
   }
 }
