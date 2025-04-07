@@ -15,8 +15,9 @@ It raises awareness about climate change and the impact of deforestation.
 
 ## 🚀 Deployment
 
-🔗 **Live Website:** [Your Netlify URL here]  
-💻 **GitHub Repo:** [Your GitHub Repo here]
+🔗  Live Website: https://stirring-klepon-3bf015.netlify.app/
+💻 **GitHub Repo:  https://github.com/BikendraShrestha7/Project1.git![image](https://github.com/user-attachments/assets/171bd4f8-84e0-4b82-9282-f879fed132b4)
+
 
 ## 👥 Group Members
 
