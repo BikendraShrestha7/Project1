@@ -1,21 +1,28 @@
-# climate-action-sketches
+# Save Our Forests 🌲
 
+This is a one-page responsive website created for the CSC 317 Group Project.  
+It raises awareness about climate change and the impact of deforestation.
 
-# Climate Action Sketches
+## 🔥 Features
 
-This repository contains wireframe sketches for our Climate Action website project.
+- Sticky navigation bar
+- Responsive layout (desktop + mobile)
+- CSS-only interactivity (hover effects, transitions)
+- Section scrolling via `:target`
+- 6 climate facts + timeline + call to action
+- Flexbox layout and Google Fonts
+- 8+ CSS pseudo-classes/elements
 
-## 📱 Mobile Design
-- A wireframe optimized for small screens.
+## 🚀 Deployment
 
-## 💻 Larger Screen Design
-- A wireframe for desktop and wider screen devices.
+🔗 **Live Website:** [Your Netlify URL here]  
+💻 **GitHub Repo:** [Your GitHub Repo here]
 
-## 📂 Files
-- `mobile-design.png` → Mobile version sketch.
-- `desktop-design.png` → Desktop version sketch.
+## 👥 Group Members
 
-## 🛠️ Contributors
-- bikendrashrestha7
-- Bikendra Shrestha
+- Bikendra
 - Tyler Morris 
+
+---
+
+Made with ❤️ using only HTML and CSS
